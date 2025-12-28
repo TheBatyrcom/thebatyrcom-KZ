@@ -1,0 +1,60 @@
+/* 🌑 Dark стиль — TheBatyrcom стилінде */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top, #1a1a1a, #000);
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+.container {
+  background: rgba(25, 25, 25, 0.9);
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  backdrop-filter: blur(10px);
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+p {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 30px;
+}
+
+button, a {
+  display: block;
+  width: 100%;
+  background: #111;
+  color: #fff;
+  border: 1px solid #2c2c2c;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 8px 0;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+button:hover, a:hover {
+  background: #222;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+}
+
+footer {
+  font-size: 12px;
+  color: #666;
+  margin-top: 25px;
+}
